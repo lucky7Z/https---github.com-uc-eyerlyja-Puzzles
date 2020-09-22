@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Puzzles"
+    }
+  },
+  "defaultProject": "Puzzles",
+  "cli": {
+    "analytics": "4261c699-a759-4a2d-bec3-f44d77369344"
+  }
 }
