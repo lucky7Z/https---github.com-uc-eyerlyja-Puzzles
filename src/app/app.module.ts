@@ -7,7 +7,6 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { HomeComponent } from './home/home.component';
 import { SharedComponent } from './shared/shared.component';
 import { ComponentsComponent } from './components/components.component';
-import { ComercialPortalComponent } from './comercial-portal/comercial-portal.component';
 import { ManagmentPortalComponent } from './managment-portal/managment-portal.component';
 import { EmployeePortalComponent } from './employee-portal/employee-portal.component';
 import { CustomerPortalComponent } from './customer-portal/customer-portal.component';
@@ -19,7 +18,6 @@ import { CustomerPortalComponent } from './customer-portal/customer-portal.compo
     HomeComponent,
     SharedComponent,
     ComponentsComponent,
-    ComercialPortalComponent,
     ManagmentPortalComponent,
     EmployeePortalComponent,
     CustomerPortalComponent
