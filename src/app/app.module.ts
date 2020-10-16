@@ -4,7 +4,6 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
 import { HomeComponent } from './home/home.component';
 import { SharedComponent } from './shared/shared.component';
 import { ComponentsComponent } from './components/components.component';
@@ -14,35 +13,43 @@ import { CustomerPortalComponent } from './customer-portal/customer-portal.compo
 import { CommercialPortalComponent } from './commercial-portal/commercial-portal.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { FormsModule } from '@angular/forms';
+
+
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatIconModule} from '@angular/material/icon';
 import {MatListModule} from '@angular/material/list';
 import {MatButtonModule} from '@angular/material/button';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SidebarComponent,
+ 
     HomeComponent,
     SharedComponent,
     ComponentsComponent,
     ManagementPortalComponent,
     EmployeePortalComponent,
     CustomerPortalComponent,
-    CommercialPortalComponent
+    CommercialPortalComponent,
+    NavComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule,
     BrowserAnimationsModule,
+    BrowserModule,
+    AppRoutingModule,    
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    MatSlideToggleModule,
+    FormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
