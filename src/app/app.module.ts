@@ -23,6 +23,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatListModule} from '@angular/material/list';
 import {MatButtonModule} from '@angular/material/button';
 import { NavComponent } from './nav/nav.component';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { NavComponent } from './nav/nav.component';
     MatButtonModule,
     MatIconModule,
     MatSlideToggleModule,
-    FormsModule
+    FormsModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
